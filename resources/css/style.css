@@ -1,0 +1,33 @@
+body {
+  background-color: white;
+}
+
+header {
+  display: flex;
+  border-bottom: solid black 1px;
+  min-height: 80px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+}
+
+div.logo {
+  padding-left: 30px;
+}
+
+img {
+  padding-right: 12px;
+}
+
+span {
+  color: mediumaquamarine;
+  height: 17px;
+  display: inline-block;
+  align-items: center;
+
+}
