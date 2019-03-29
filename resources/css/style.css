@@ -46,10 +46,21 @@ nav a {
 div.content {
   display: flex;
   width: 1232px;
+  margin-top: 0px;
   margin-bottom: 78px;
-  margin-right: 413px;
+  margin-right: auto;
+  margin-left: auto;
   padding-top: 116px;
+}
+
+div {
   border: 1px solid black;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    margin-right: 32px;
 }
 
 .column.large {
